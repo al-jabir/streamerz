@@ -1,9 +1,11 @@
-import React from 'react'
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
-    <div>React App</div>
-  )
-}
+    <main className="text-sm text-neutral-300 antialiased">
+      <Navbar />
+    </main>
+  );
+};
 
-export default App
+export default App;
